@@ -1,4 +1,10 @@
 h1 {
     color : blue;
-    font-family : Arial;
+    font-family : "Courier New";
+    background-color :  #c6c3c4;
+    font-style: italic;
+    font-variant: normal;
+    text-allign : center;
+    line-height : 100%;
+    
 }
