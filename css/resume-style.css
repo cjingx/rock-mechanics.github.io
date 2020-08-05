@@ -1,71 +1,84 @@
-
+/* General text size and font */
+/* Overwrite broswer default style */
 p {
-    text-align : center;
-    font-size  : 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+*{
+    font-size  : 17px;
     font-family : "Times New Roman";
 }
 
-p.name{
-    font-weight : bold;
+/*banner*/
+/*banners contains three p */
+section.banner {
+    text-align: center;
 }
-p.name, p.address, p.contact {
+section.banner > *{
     margin: 5px 0px;
 }
 
-div.category{
-    font-size : 15px;
-    font-family: 'Times New Roman', Times, serif;
+/*content part*/
+/*content contains several div.category*/
+section.content{
     text-align: center;
 }
-div.category-name{
-    font-weight: bold;
-    border-bottom: 1px solid;
-    text-align: left;
-}
-div.icon {
-    width : 5%;
+
+/*big category*/
+/*it contains i and text*/
+.category > * {
     display: inline-block;
-    overflow: hidden;
-    text-align: left;
+    margin-top: 5px;
+    vertical-align: top;
 }
+
+/*width of elements in category*/
+/*so they can disply inline*/
+i {
+    width : 5%;
+}
+
 div.text{
     width: 85%;
-    display: inline-block;
-    overflow: hidden;
     text-align: left;
 }
-span.title{
+
+/*inside the text section*/
+/*text contains p.title and several entry*/
+div.text > * {
+    display: block;
+}
+
+/* each entry should cotain time and exp.*/
+.entry > * {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px;
+}
+
+div.time {
+    width: 15%;
+}
+
+div.exp{
+    width: 75%;
+}
+
+/*make the title class bold*/
+.title{
     font-weight: bold;
 }
-div.time{
-    display: inline-block;
-    vertical-align: top;
-    width: 15%;
-    text-align: left;
+.text > .title {
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
 }
-div.exp{
-    display: inline-block;
-    width: 75%;
-    text-align: left;
-}
-ul{
-    vertical-align: top;
-    margin-top: 0px;
-}
-li {
-    word-wrap: break-word;
-}
-div.icon{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-div.category-name, div.icon, div.entry{
-    margin: 5px 0px 10px 0px;
-}
-div.summary{
-    margin : 0px 0px 10px 0;
-}
+
+/*footer style*/
 footer{
     border-top: double;
     margin-top: 200px;
@@ -73,4 +86,8 @@ footer{
 }
 code{
     vertical-align: bottom;
+}
+
+.summary {
+    margin-bottom: 10px;
 }
