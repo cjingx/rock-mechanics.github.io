@@ -1,16 +1,15 @@
 /* General text size and font */
 /* Overwrite broswer default style */
-p {
+p, span {
     margin: 0px;
     padding: 0px;
+    font-family : "Times New Roman";
+    font-size  : 16px;
 }
 
 ul {
     margin: 0px;
-}
-
-*{
-    font-size  : 17px;
+    font-size : 16px;
     font-family : "Times New Roman";
 }
 
