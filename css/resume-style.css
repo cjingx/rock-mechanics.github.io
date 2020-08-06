@@ -1,5 +1,10 @@
 /* General text size and font */
 /* Overwrite broswer default style */
+
+p {
+    -webkit-appearance: none;
+}
+
 p, span {
     margin: 0px;
     padding: 0px;
