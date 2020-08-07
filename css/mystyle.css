@@ -1,18 +1,22 @@
 header {
     color: #3498db;
-    font-family : "Courier New";
-    font-style: italic;
+    font-family : 'Courier New', Courier, monospace;
+    font-style: normal;
     font-variant: normal;
     text-align : center;
 }
-section{
-    height: 
+h1 {
+    font-weight: lighter;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav {
     text-align: center;
     border-bottom: 1px solid #3498db;
     padding-bottom: 30px;
     margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*remove default anchor style*/
@@ -24,6 +28,7 @@ nav a:link, a:visited, a:hover, a:active{
 nav a {
     text-decoration: none;
     font-size: 20px;
+    font-family: inherit;
 }
 
 nav button{
@@ -32,13 +37,13 @@ nav button{
     background: none;
     padding: 10px 20px;
     font-size: 20px;
-    font-family: "montserrat";
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
     position: relative;
     overflow: hidden;
     color: #3498db;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
