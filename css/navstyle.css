@@ -1,0 +1,55 @@
+nav , section{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px 0px 0px 0px;
+    height: 100vh;
+}
+
+nav {
+    width: 20%;
+    background-color: #486b32;
+    border: 1px solid;
+    min-width: 200px;
+    border: 1px solid;
+}
+section{
+    width: 70%;
+    overflow:auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px 20px 20px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 20px;
+    background-image: url("../Images/arrow.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-color:#7f8c8d;
+    transition: 1s ease-in-out;
+}
+
+section * {
+    padding: 0px 20px 20px 20px;
+    margin: 0px;
+    overflow: auto;
+}
+
+body{
+    overflow: auto;
+    min-width: 750px;
+}
+
+nav a:hover{
+    background-color: tomato;
+    border-color: teal;
+}
+nav a:active{
+    background-color: violet;
+    border-color: wheat;
+}
