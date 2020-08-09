@@ -1,0 +1,67 @@
+* {
+    border : 1px solid;
+}
+
+table.tab{
+    color : #06425C;
+    border-spacing: 0px;
+    border-radius: 0px 0px 25px 25px;
+    border-width: 3px;
+    overflow: hidden;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+tr:nth-child(even){
+    background-color: #cdbb79;
+}
+
+tbody tr:last-child{
+    border-radius: 0px 0px 25px 25px;
+    background-color: green;
+}
+
+tr:last-child>td:first-child{
+    border-radius: 0px 0px 0px 25px;
+    background-color: tomato;
+}
+tr:last-child>td:last-child{
+    border-radius: 0px 0px 25px 0px;
+    background-color: tomato;
+}
+.cap {
+   color:white;
+   background-color: #06425C;
+   border-radius: 25px 25px 0px 0px;
+}
+td, th {
+    margin: 2px;
+    padding: 2px;
+    width: 75px;
+    height: 75px;
+}
+
+th{
+    height: 25px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.old{
+    color: grey;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png");
+    background-repeat: no-repeat;
+}
+span{
+    display: block;
+    visibility: hidden;
+    transition: 2s ease-in-out;
+    z-index: 1;
+}
+
+td:active>span{
+    visibility: visible;
+}
