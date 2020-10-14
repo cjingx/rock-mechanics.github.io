@@ -10,23 +10,25 @@
 .title{
 	font-weight:bold;
 }
-
 .banner {
 	text-align : center;
 }
 .icon {
 	margin : 0px;
-	width : 10%;
+	width : 5%;
 	text-align : right;
 	float: left;
+	padding: 0.5em;
 }
 .text {
 	margin-left: 1em;
-	width : calc(90% - 1em);
+	width : calc(95% - 1em);
 	float:left;
 }
+.title {
+	padding-bottom: 0.5em;
+}
 .text > .title {
-	padding-bottom : 0.5em;
 	border-bottom: 1px solid black;
 }
 .time {
@@ -34,7 +36,7 @@
 	width : 20%;
 	font-size : 1em;
 }
-.time p {
+p {
 	margin : 0px;
 	font-size : 1em;
 	padding: 0.5em 0;
@@ -44,13 +46,22 @@
 	width : 80%;
 	font-size : 1em;
 	padding: 0.5em;
-	padding-right : 20%;
 }
 .exp .summary {
 	font-size : 1em;
 	padding-bottom: 0.5em;
+	margin-top : 0;
 }
-li {
-	margin : 0.25em;
-	line-height : 150%;
+ul *+* {
+	margin-top: 0.3em;
+}
+.content {
+	width : 100%;
+	max-width : 1200px;
+	margin : auto;
+}
+
+footer {
+	clear : both;
+	padding-top: 4em;
 }
